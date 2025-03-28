@@ -56,8 +56,10 @@ body{
     justify-content: center;
     padding: 20px;
   }
-  
-  .mascot img {
+  .mascot{
+}
+.mascot img {
+    background: none;
     width: 150px;
     height: auto;
     margin-bottom: 15px;
