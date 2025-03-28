@@ -1,0 +1,14 @@
+{
+  "name": "cute-app",
+  "version": "1.0.0",
+  "description": "Cute App",
+  "main": "index.js",
+  "scripts": {
+    "start": " \"electron ."
+  },
+  "author": "Anandita",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.1.2"
+  }
+}
