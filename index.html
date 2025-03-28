@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <img src="assets/mascot.png" alt="Cute Mascot" class="loading-mascot">
+            <p>Loading cuteness...</p>
+        </div>
+    </div>
+
     <div class="app-container">
         <div class="title-bar">
             <div class="app-title">My Cute App</div>
@@ -33,5 +40,15 @@
         </div>
     </div>
     <script src="renderer.js"></script>
+    <script>
+        // Simulate loading and then show the app
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loading-screen').style.display = 'none';
+                document.querySelector('.app-container').style.display = 'flex';
+            }, 2000);
+        });
+    </script>
+
 </body>
 </html>
