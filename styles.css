@@ -161,3 +161,6 @@ body{
   color: #8a6cca;
   font-size: 18px;
 }
+.mascot img {
+  background-color: transparent;
+}
